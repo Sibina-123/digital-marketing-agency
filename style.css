@@ -474,6 +474,7 @@ body {
 #portfolio {
     background: #eef4ff;
     padding: 60px 20px;
+    text-align: center;
 }
 
 #portfolio .service-card {
@@ -483,6 +484,7 @@ body {
     background: white;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 #portfolio a {
