@@ -541,3 +541,17 @@ display: block;
         box-sizing: border-box;
     }
 }
+@media screen and (max-width: 600px) {
+    #skills .service-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    #skills .service-card {
+        width: 100%;
+        max-width: 320px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+}
