@@ -471,3 +471,26 @@ body {
     color: #555;
     line-height: 1.6;
 }
+#portfolio {
+    background: #eef4ff;
+    padding: 60px 20px;
+}
+
+#portfolio .service-card {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#portfolio a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#portfolio a:hover {
+    text-decoration: underline;
+}
