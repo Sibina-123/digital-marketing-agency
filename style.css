@@ -497,3 +497,28 @@ display: block;
 #portfolio a:hover {
     text-decoration: underline;
 }
+#skills {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f4f7ff;
+}
+
+#skills .service-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+#skills .service-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+#skills .service-card:hover {
+    transform: translateY(-8px);
+}
