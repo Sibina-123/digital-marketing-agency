@@ -1,0 +1,473 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7ff;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background: #172554;
+    color: white;
+    padding: 20px;
+}
+
+header h2 {
+    margin: 0 0 15px;
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#home {
+ background: linear-gradient(135deg, #1d4ed8, #06b6d4);
+    padding: 100px 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #172554;
+}
+
+h2 {
+    color: #172554;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+/* Service section design */
+#services {
+    background: #eef4ff;
+    padding: 70px 20px;
+}
+
+#services p {
+    font-size: 18px;
+    color: #333;
+    line-height: 2;
+}
+/* Services Section */
+#services {
+    background: #eef4ff;
+    padding: 70px 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.service-card {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card h3 {
+    color: #172554;
+}
+
+.service-card p {
+    color: #555;
+    line-height: 1.6;
+}
+textarea {
+    width: 250px;
+    height: 80px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    font-family: Arial;
+}
+/* Home section design */
+#home {
+    background: linear-gradient(135deg, #172554, #2563eb);
+    color: white;
+    padding: 120px 20px;
+}
+
+#home h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+#about {
+    background: #f8fafc;
+    padding: 80px 20px;
+}
+
+#about h2 {
+    font-size: 32px;
+    color: #172554;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: auto;
+}
+footer {
+    background: #172554;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    #home h1 {
+        font-size: 30px;
+    }
+
+    input, textarea {
+        max-width: 80%;
+        box-sizing: border-box;
+    }
+}
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 85%;
+        margin-bottom: 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 15px;
+    }
+
+    input,
+    textarea,
+    button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 600px) {
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+    width: 85%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+    nav a {
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    #contact form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 15px;
+    }
+
+    #contact input,
+    #contact textarea,
+    #contact button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #home h1 {
+        font-size: 28px;
+    }
+
+    section {
+        padding: 40px 15px;
+    }
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #172554;
+    color: white;
+    margin-top: 30px;
+}
+/* Contact Form Design */
+#contact form {
+    max-width: 500px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#contact textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#contact button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+}
+/* Service Card Hover Effect */
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #172554;
+}
+.service-card {
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+#contact form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+nav a {
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #38bdf8;
+    text-decoration: underline;
+}
+html {
+    scroll-behavior: smooth;
+}
+.top-button {
+    background: #172554;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+
+.top-button:hover {
+    background: #06b6d4;
+    transform: scale(1.05);
+}
+#about {
+    background: white;
+    padding: 80px 20px;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #555;
+}
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #06b6d4;
+    text-decoration: underline;
+}
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    border: 2px solid #2563eb;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.2);
+}
+body {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#testimonials {
+    background: #eef4ff;
+    padding: 70px 20px;
+}
+
+#testimonials .service-card {
+    margin: 20px auto;
+    max-width: 350px;
+}
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#testimonials .service-card {
+    width: 300px;
+    margin: 15px auto;
+    text-align: center;
+}
+#testimonials h2 {
+    color: #172554;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#testimonials .service-card h3 {
+    color: #2563eb;
+    margin-top: 15px;
+}
+@media (max-width: 600px) {
+    #testimonials .service-card {
+        width: 85%;
+        max-width: 300px;
+        box-sizing: border-box;
+    }
+
+    #testimonials h2 {
+        font-size: 26px;
+    }
+}
+#privacy {
+    background: #f4f7ff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#privacy h2 {
+    color: #172554;
+    font-size: 28px;
+}
+
+#privacy p {
+    color: #555;
+    line-height: 1.6;
+}

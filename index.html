@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="description" content="Digital Growth helps businesses grow online through SEO, social media marketing and content marketing.">
+<meta name="keywords" content="Digital Marketing, SEO, Social Media Marketing, Content Marketing">
+<meta name="author" content="Digital Growth">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet"
+    href="style.css">
+    </head>
+    <body>
+        <header>
+            <h2>Digital Growth</h2>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a
+    href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+    <a href="#privacy">Privacy Policy</a>
+    </nav>
+        </header>
+
+        <section id="home">
+            <h1>Grow Your Buisness Online</h1>
+            <p>We help buisness grow with digital marketing.</p>
+            <button
+            onclick="showMessage()">Get Started</button>
+        </section>
+
+        <section id="about">
+            <h2>About US</h2>
+            <p>
+We are a creative digital marketing agency helping small businesses
+build their online presence. Our goal is to improve brand visibility,
+reach more customers and support business growth through digital strategies.
+</p>
+        </section>
+        <section id="testimonials">
+    <h2>What People Say</h2>
+
+    <div class="service-card">
+        <p>"Great service and creative ideas!"</p>
+        <h3>- Sample Client</h3>
+    </div>
+
+    <div class="service-card">
+        <p>"Very helpful digital marketing team."</p>
+        <h3>- Sample Customer</h3>
+    </div>
+</section>
+
+        <section id="services">
+    <h2>Our Services</h2>
+
+    <div class="service-container">
+
+        <div class="service-card">
+            <h3>🔍 SEO</h3>
+            <p>Improve your website ranking on Google and reach more customers.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>📱 Social Media Marketing</h3>
+            <p>Grow your business through Instagram, Facebook and other platforms.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>✍️ Content Marketing</h3>
+            <p>Create engaging content to attract and connect with your audience.</p>
+        </div>
+
+    </div>
+</section>
+
+        <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a project in mind? Let's work together!</p>
+
+<form onsubmit="showMessage(); return false;">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
+   
+</section>
+<section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p>This demo website does not collect or store personal information.</p>
+</section>
+    <footer>
+   <p>© <span id="year"></span> Digital Growth. All Rights Reserved.</p>
+    <div class="social-links">
+    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+</div>
+    </footer>
+    <button class="top-button" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    Back to Top ↑
+</button>
+    <script src="script.js"></script>
+</body>
+</html>
