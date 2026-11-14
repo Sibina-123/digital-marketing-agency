@@ -546,3 +546,16 @@ display: block;
         grid-template-columns: 1fr;
     }
 }
+@media screen and (max-width: 600px) {
+    #skills .service-container {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+    }
+
+    #skills .service-card {
+        width: 100%;
+        max-width: 320px;
+        margin: auto;
+    }
+}
