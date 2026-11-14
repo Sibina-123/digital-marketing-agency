@@ -555,3 +555,30 @@ display: block;
         box-sizing: border-box;
     }
 }
+/* Skills Section Improvement */
+#skills .service-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+#skills .service-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#skills .service-card h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    #skills .service-container {
+        grid-template-columns: 1fr;
+    }
+}
