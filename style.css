@@ -1260,3 +1260,36 @@ section p,
 section span {
     color: #FFFFFF !important;
 }
+/* MIVORA FINAL THEME FIX */
+html body {
+    background: #0B1F3A !important;
+    color: #FFFFFF !important;
+}
+
+header, footer {
+    background: #08172B !important;
+    border-color: #D4AF37 !important;
+}
+
+section {
+    background: #0B1F3A !important;
+    color: #FFFFFF !important;
+}
+
+h1, h2, h3, h4 {
+    color: #D4AF37 !important;
+}
+
+p, span, li {
+    color: #FFFFFF !important;
+}
+
+a {
+    color: #D4AF37 !important;
+}
+
+.service-card, .testimonial-card {
+    background: #102A4C !important;
+    color: #FFFFFF !important;
+    border: 1px solid #D4AF37 !important;
+}
