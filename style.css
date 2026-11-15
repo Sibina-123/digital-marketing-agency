@@ -30,13 +30,9 @@ nav a:hover {
 
 section {
     padding: 60px 20px;
+    background-color: #0B1F3A !important;
+    color: #FFFFFF;
 }
-
-#home {
- background: linear-gradient(135deg, #1d4ed8, #06b6d4);
-    padding: 100px 20px;
-}
-
 h1 {
     color: white;
     font-size: 48px;
