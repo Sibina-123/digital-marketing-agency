@@ -876,3 +876,17 @@ button:hover {
     background: #4338ca;
     transform: translateY(-4px);
 }
+/* Modern Privacy Policy */
+#privacy {
+    background: #ffffff;
+    padding: 60px 25px;
+    text-align: center;
+}
+
+#privacy p {
+    max-width: 850px;
+    margin: 15px auto;
+    color: #64748b;
+    line-height: 1.8;
+    font-size: 15px;
+}
