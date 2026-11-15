@@ -1307,3 +1307,11 @@ p, li, span {
 body, p, li, span, label {
     color: #FFFFFF !important;
 }
+section p {
+    font-size: 17px !important;
+    line-height: 1.8;
+}
+
+section h2 {
+    font-size: 32px !important;
+}
