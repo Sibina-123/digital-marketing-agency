@@ -631,3 +631,248 @@ button {
 button:hover {
     background: #4338ca;
 }
+/* Modern Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #a5b4fc;
+}
+/* Modern Services Cards */
+#services .service-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+    transition: all 0.3s ease;
+}
+
+#services .service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(30, 58, 138, 0.15);
+    border-color: #3b82f6;
+}
+
+#services .service-card h3 {
+    color: #1e3a8a;
+}
+/* Modern Contact Section */
+#contact {
+    background: #f1f5f9;
+    padding: 70px 20px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    border-color: #1e3a8a;
+    box-shadow: 0 0 5px rgba(30,58,138,0.2);
+}
+
+#contact button {
+    width: 100%;
+    margin-top: 12px;
+}
+/* Modern Footer */
+footer {
+    background: #0b1120;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    color: #cbd5e1;
+    margin: 8px 0;
+}
+
+footer a {
+    color: #93c5fd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+
+    header {
+        padding: 18px 10px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    #home {
+        padding: 80px 15px;
+    }
+
+    #home h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 45px 15px;
+    }
+
+    section h2 {
+        font-size: 26px;
+    }
+
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+}
+/* Modern Smooth Effects */
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+/* Premium Portfolio Design */
+#portfolio {
+    background: #eef2ff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#portfolio .service-card {
+    max-width: 550px;
+    margin: 30px auto;
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.10);
+}
+
+#portfolio h3 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+#portfolio a {
+    display: inline-block;
+    margin: 8px;
+    color: #1e40af;
+    font-weight: 600;
+}
+/* Premium About Section */
+#about {
+    background: #ffffff;
+    padding: 80px 25px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #0f172a;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 850px;
+    margin: 0 auto;
+    color: #475569;
+    font-size: 17px;
+    line-height: 1.9;
+}
+/* Modern Project Highlights */
+#highlights {
+    background: #f1f5f9;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#highlights .service-container {
+    max-width: 1100px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+#highlights .service-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+}
+
+#highlights .service-card h3 {
+    color: #1e3a8a;
+}
+
+@media (max-width: 600px) {
+    #highlights .service-container {
+        grid-template-columns: 1fr;
+    }
+}
+/* Back To Top Button */
+#backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(15, 23, 42, 0.2);
+    z-index: 999;
+}
+
+#backToTop:hover {
+    background: #4338ca;
+    transform: translateY(-4px);
+}
