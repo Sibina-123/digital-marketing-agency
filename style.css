@@ -840,7 +840,7 @@ button:hover {
     text-align: center;
 }
 
-#highlights .service-container {
+#highlights .highlights-container {
     max-width: 1100px;
     margin: 30px auto;
     display: grid;
@@ -860,7 +860,7 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-    #highlights .service-container {
+    #highlights .highlights-container {
         grid-template-columns: 1fr;
     }
 }
