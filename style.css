@@ -1,11 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #0B1F3A;
+    background: #0B1F3A !important;
     text-align: center;
-    color:#FFFFFF;
+    color: #FFFFFF !important;
 }
-
 header {
     background: #08172B;
     color: white;
