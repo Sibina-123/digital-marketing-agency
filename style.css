@@ -1206,3 +1206,18 @@ footer p {
         padding: 40px 15px;
     }
 }
+body {
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+    color: #D4AF37;
+}
+
+p {
+    color: #D6DCE5;
+}
+
+a {
+    color: #D4AF37;
+}
