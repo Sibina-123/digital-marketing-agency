@@ -979,3 +979,22 @@ input, textarea, button {
         grid-template-columns: 1fr;
     }
 }
+/* Project Highlights Alignment Fix */
+#highlights .highlights-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 800px;
+    margin: 30px auto;
+    gap: 25px;
+}
+
+#highlights .service-card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    #highlights .highlights-container {
+        grid-template-columns: 1fr;
+    }
+}
