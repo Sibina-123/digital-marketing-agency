@@ -1055,3 +1055,11 @@ button:hover {
     border: 1px solid #d4af37;
     border-radius: 12px;
 }
+section {
+    background-color: #0b0b0b !important;
+    color: #ffffff;
+}
+
+section p {
+    color: #cccccc;
+}
