@@ -1304,3 +1304,6 @@ h1, h2, h3 {
 p, li, span {
     color: #FFFFFF !important;
 }
+body, p, li, span, label {
+    color: #FFFFFF !important;
+}
