@@ -890,3 +890,22 @@ button:hover {
     line-height: 1.8;
     font-size: 15px;
 }
+/* Professional Typography */
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    line-height: 1.7;
+    color: #334155;
+}
+
+h1, h2, h3 {
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+a {
+    transition: all 0.3s ease;
+}
+
+input, textarea, button {
+    font-family: inherit;
+}
