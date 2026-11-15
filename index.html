@@ -139,21 +139,56 @@
     </div>
 
   </div>
-</section>
+/* Testimonials Section */
 
-        <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Have a project in mind? Let's work together!</p>
+#testimonials {
+  padding: 70px 20px;
+  text-align: center;
+  background: #f5f7ff;
+}
 
-<form action="https://formsubmit.co/sibina0306@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <input type="hidden" name="_subject" value="New Website Enquiry">
-    <button type="submit">Send Message</button>
-</form>
-   
-</section>
+#testimonials h2 {
+  font-size: 32px;
+  color: #142b5c;
+  margin-bottom: 15px;
+}
+
+#testimonials p {
+  color: #666;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 30px;
+  width: 260px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+}
+
+.testimonial-card h3 {
+  color: #f5a623;
+  font-size: 22px;
+}
+
+.testimonial-card h4 {
+  color: #142b5c;
+  margin-top: 20px;
+}
+       </section>
+
 <section id="privacy">
     <h2>Privacy Policy</h2>
    <p>This demo website uses FormSubmit to process contact form messages. The information you submit may be sent to the website owner's email address.</p>
