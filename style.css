@@ -1157,3 +1157,30 @@ footer p {
         font-size: 30px;
     }
 }
+@media (max-width: 768px) {
+    header {
+        padding: 12px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card,
+    .testimonial-card {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
