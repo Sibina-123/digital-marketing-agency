@@ -956,3 +956,26 @@ input, textarea, button {
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+/* Fix Services Layout */
+#services {
+    text-align: center;
+}
+
+#services .service-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+#services .service-card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    #services .service-container {
+        grid-template-columns: 1fr;
+    }
+}
