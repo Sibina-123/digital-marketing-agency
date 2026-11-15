@@ -1051,15 +1051,16 @@ button:hover {
 
 .service-card,
 .testimonial-card {
-    background: #171717;
-    border: 1px solid #d4af37;
+    background: #102A4C;
+    border: 1px solid #D4AF37;
     border-radius: 12px;
 }
+
 section {
-    background-color: #0b0b0b !important;
-    color: #ffffff;
+    background-color: #0B1F3A !important;
+    color: #FFFFFF;
 }
 
 section p {
-    color: #cccccc;
+    color: #D6DCE5;
 }
