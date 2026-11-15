@@ -85,7 +85,7 @@ input {
     padding: 70px 20px;
 }
 
-.service-container {
+#services.service-container {
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -937,4 +937,13 @@ input, textarea, button {
     #skills .service-container {
         grid-template-columns: 1fr;
     }
+}
+/* Professional Card Hover Effect */
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
