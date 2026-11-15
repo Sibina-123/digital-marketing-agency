@@ -85,7 +85,7 @@ input {
     padding: 70px 20px;
 }
 
-#services.service-container {
+#services .service-container {
     display: flex;
     justify-content: center;
     gap: 25px;
