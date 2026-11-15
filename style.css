@@ -1239,3 +1239,24 @@ h1, h2, h3 {
 nav a {
     color: #D4AF37 !important;
 }
+/* FINAL DARK BLUE AND GOLD THEME */
+body {
+    background: #0B1F3A !important;
+    color: #FFFFFF !important;
+}
+
+section {
+    background: #0B1F3A !important;
+    color: #FFFFFF !important;
+}
+
+section h1,
+section h2,
+section h3 {
+    color: #D4AF37 !important;
+}
+
+section p,
+section span {
+    color: #FFFFFF !important;
+}
