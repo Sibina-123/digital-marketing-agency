@@ -1021,3 +1021,37 @@ input, textarea, button {
     display: block;
     object-fit: contain;
 }
+/* MIVORA PREMIUM BLACK & GOLD THEME */
+body {
+    background: #0b0b0b;
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    color: #d4af37;
+}
+
+a {
+    color: #d4af37;
+}
+
+button {
+    background: #d4af37;
+    color: #000000;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.service-card,
+.testimonial-card {
+    background: #171717;
+    border: 1px solid #d4af37;
+    border-radius: 12px;
+}
