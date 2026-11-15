@@ -1335,3 +1335,19 @@ nav a:hover {
     background: #FFFFFF;
     color: #0B1F3A !important;
 }
+button {
+    background: linear-gradient(135deg, #FFD700, #D4AF37) !important;
+    color: #111111 !important;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px #D4AF3760;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #FFFFFF !important;
+    color: #0B1F3A !important;
+    transform: translateY(-3px);
+}
