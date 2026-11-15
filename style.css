@@ -1233,3 +1233,14 @@ h1, h2, h3, h4 {
 a {
     color: #D4AF37 !important;
 }
+body, section, section p {
+    color: #FFFFFF !important;
+}
+
+h1, h2, h3 {
+    color: #D4AF37 !important;
+}
+
+nav a {
+    color: #D4AF37 !important;
+}
