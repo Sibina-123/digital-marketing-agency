@@ -1293,3 +1293,14 @@ a {
     color: #FFFFFF !important;
     border: 1px solid #D4AF37 !important;
 }
+body, section, header, footer {
+    background-color: #0B1F3A !important;
+}
+
+h1, h2, h3 {
+    color: #D4AF37 !important;
+}
+
+p, li, span {
+    color: #FFFFFF !important;
+}
