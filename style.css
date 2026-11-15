@@ -855,6 +855,14 @@ button:hover {
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
 }
+#highlights .service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#highlights .service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.15);
+}
 
 #highlights .service-card h3 {
     color: #1e3a8a;
