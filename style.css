@@ -582,3 +582,52 @@ display: block;
         grid-template-columns: 1fr;
     }
 }
+/* Premium Modern Navy Design */
+
+header {
+    background: #0b1120;
+    padding: 25px 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+#home {
+    background: linear-gradient(135deg, #0b1120, #1e3a8a);
+    padding: 130px 20px;
+}
+
+#home h1 {
+    font-size: 52px;
+    color: #ffffff;
+}
+
+#home p {
+    color: #dbeafe;
+    font-size: 18px;
+}
+
+section h2 {
+    color: #0f172a;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(15,23,42,0.10);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+button {
+    background: #1e3a8a;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 25px;
+}
+
+button:hover {
+    background: #4338ca;
+}
